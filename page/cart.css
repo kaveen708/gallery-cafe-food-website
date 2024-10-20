@@ -1,0 +1,77 @@
+/* Floating Cart Styles */
+.floating-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    display: none; /* Initially hidden */
+    z-index: 1000;
+}
+
+.floating-cart h3 {
+    margin: 0 0 10px;
+}
+
+.floating-cart #cartItems {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.floating-cart .cart-summary {
+    margin-top: 10px;
+}
+
+.floating-cart button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.floating-cart button:hover {
+    background-color: #218838;
+}
+
+/* Menu Button Styles */
+.menu_btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu_btn:hover {
+    background-color: #0056b3;
+}
+
+/* Example CSS for the filter-container */
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#categoryFilter {
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
